@@ -21,6 +21,7 @@ const Footer = () => {
 					<a href="http://localhost:3000/sale">Work</a>
           <a href='/'><span style={{cursor: "pointer"}} onclick="openNav()">Contact Us</span></a>
 					<a href="http://localhost:3000/terms">Our Terms</a>
+					<a href="http://localhost:3000/support">Portfolio</a>
 					<a href="http://localhost:3000/support">Join Us</a>
 				</div>
 			</div>

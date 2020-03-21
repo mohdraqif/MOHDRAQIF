@@ -56,7 +56,7 @@ footer {
 
 .footer .footer-content .footer-section {
   flex: 1;
-  padding: 25px;
+  padding: 33px;
 }
 
 .footer .footer-content .about .contact span {
@@ -84,7 +84,7 @@ footer {
   display: block;
   margin-right: 1px;
   margin-bottom: 10px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--font-color);
   transition: all .3s;
 }
