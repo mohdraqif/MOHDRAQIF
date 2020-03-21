@@ -10,7 +10,7 @@ const Footer = () => {
 
 			<div class="footer-section about">
 				<div class="logo">
-					<a class="navbar-brand" href="http://localhost:3000/">MR</a>
+					<a class="navbar-brand" href="http://localhost:3000/">MR<hr></hr></a>
 				</div>
 			</div>
 
@@ -46,12 +46,12 @@ const Footer = () => {
 
 			<div class="footer-section contact-map">
 				<h2>We are here</h2>
-				<iframe title="title" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7019.770510320578!2d79.40665704913197!3d28.392533480272466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a00709bb82429f%3A0x1b7218a65f0799e7!2sBaba%20Sweet!5e0!3m2!1sen!2sin!4v1570859337272!5m2!1sen!2sin" width="350" height="200" frameborder="0" style={{border:0}} allowfullscreen=""></iframe>
+				<iframe title="my work location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7019.770510320578!2d79.40665704913197!3d28.392533480272466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a00709bb82429f%3A0x1b7218a65f0799e7!2sBaba%20Sweet!5e0!3m2!1sen!2sin!4v1570859337272!5m2!1sen!2sin" width="350" height="200" frameborder="0" style={{opacity:0.83}} allowfullscreen=""></iframe>
 			</div>
 		</div>
 
 		<div class="footer-bottom">
-			<p>&copy; 2019 | Made by Mohd.Raqif with React <FaReact/></p>
+			<p>&copy; 2020 | Made by <a href='https://github.com/mohdraqif' target='blank'>Mohd.Raqif</a> with React <FaReact/></p>
 		</div>
 	</div>
     </footer>

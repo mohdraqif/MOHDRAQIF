@@ -2,6 +2,8 @@
   --font-color: #A09562;
   --primary-color: rgb(5, 5, 5);
   --secondary-color: #151718;
+  --mainwhite: #F0EEE4;
+  --maintransition: all 0.25s;
   --font-style: NeueMontreal, sans-serif;
 }
 
@@ -11,7 +13,6 @@ html {
 }
 body {
   margin: 0 0 300px;
-  /* bottom = footer height */
   padding: 25px;
 }
 footer {
@@ -20,14 +21,14 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 450px;
+  height: 430px;
   text-align: center;
   width: 100%;
   overflow:hidden;
 }
 
 .footer-content {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .footer-content .footer-bottom {
@@ -42,6 +43,16 @@ footer {
   position: relative;
   bottom: 0px;
   left: 0px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: var(--font-color);
+  transition: var(--maintransition);
+}
+
+.footer-bottom a:hover{
+  color: var(--mainwhite);
 }
 
 .footer .footer-content .footer-section h2{
@@ -79,6 +90,11 @@ footer {
   font-family: 'League Sparton';  
 }
 
+.footer .footer-content .about .logo a hr{
+  margin-top: 8px;
+  width: 90px;
+}
+
 .footer .footer-content .links a {
   text-decoration: none;
   display: block;
@@ -86,11 +102,11 @@ footer {
   margin-bottom: 10px;
   font-size: 1.2rem;
   color: var(--font-color);
-  transition: all .3s;
+  transition: var(--maintransition);
 }
 
 .footer .footer-content .links a:hover {
-  color: #355561;
+  color: var(--mainwhite);
   margin-left: 15px;
 }
 
@@ -98,7 +114,6 @@ footer {
   background: var(--secondary-color);
   font-family: var(--font-style);
   letter-spacing: 1.5px;
-  line-height: 20px;
   line-height: 25px;
   color: var(--font-color);
   margin: -5px 20px 28px;
@@ -117,12 +132,12 @@ footer {
   text-align: center;
   font-size: 1.3rem;
   border-radius: 5px;
-  transition: all .2s;
+  transition: var(--maintransition);
 }
 
 .footer .footer-content .contact-form .socials a:hover {
-  color: #355561;
+  color: var(--mainwhite);
   border: 1px white;
-  transition: all .2s;
-  transform: scale(1.2);
+  transition: var(--maintransition);
+  transform: scale(1.4);
 }
