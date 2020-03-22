@@ -156,6 +156,15 @@ footer {
   padding: 33px;
 }
 
+.footer .footer-content .footer-section a {
+  text-decoration: none;
+  color: var(--font-color);
+  transition: var(--maintransition);
+}
+.footer .footer-content .footer-section a:hover {
+  color: var(--mainwhite);
+}
+
 .footer .footer-content .about .contact span {
   display: block;
   font-size: 1.1rem;
@@ -226,4 +235,10 @@ footer {
   border: 1px white;
   transition: var(--maintransition);
   transform: scale(1.4);
+}
+
+.join {
+  background-color: red;
+  width: 350px;
+  height: 200px;
 }

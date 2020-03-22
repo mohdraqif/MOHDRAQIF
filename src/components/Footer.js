@@ -45,8 +45,10 @@ const Footer = () => {
 			</div>
 
 			<div className="footer-section contact-map">
-				<h2>We are here</h2>
-				<iframe title="my work location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7019.770510320578!2d79.40665704913197!3d28.392533480272466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a00709bb82429f%3A0x1b7218a65f0799e7!2sBaba%20Sweet!5e0!3m2!1sen!2sin!4v1570859337272!5m2!1sen!2sin" width="350" height="200" frameborder="0" style={{opacity:0.83}} allowfullscreen=""></iframe>
+				<h2>Meet us <span><a href="https://www.google.com/maps/place/Baba+Sweet/@28.397374,79.410282,14z/data=!4m5!3m4!1s0x0:0x1b7218a65f0799e7!8m2!3d28.3973744!4d79.4102817?hl=en" target="blank">here . . .</a></span></h2>
+				<div className="join">
+					<h2>Join us</h2>
+				</div>
 			</div>
 		</div>
 
