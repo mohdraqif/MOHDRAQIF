@@ -5,11 +5,6 @@ const Header = () => {
   return (
     <div>
       <nav className="nav__cont">
-        <div className="header-section">
-          <div className="logo">
-            <a className="navbar-brand" href="http://localhost:3000/"><hr/></a>
-          </div>
-			  </div>
         <ul className="nav">
           <li className="nav__items ">
             <a href="/">About</a>
