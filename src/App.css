@@ -3,7 +3,7 @@
   --primary-color: rgb(5, 5, 5);
   --secondary-color: #151718;
   --mainwhite: #F0EEE4;
-  --maintransition: all 0.25s;
+  --maintransition: all 0.25s ease;
   --font-style: NeueMontreal, sans-serif;
 }
 
@@ -14,7 +14,89 @@ html {
 body {
   margin: 0 0 300px;
   padding: 25px;
+  background: url('./images/img1.jpg');
 }
+
+.nav__cont {
+  position: fixed;
+  width: 6px;
+  top: 0;
+  left:0;
+  height: 100vh;
+  z-index: 10;
+  background-color: var(--secondary-color);
+  overflow: hidden;
+  transition: width 0.25s ease;
+  cursor: pointer;
+  box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.699);
+}
+.nav__cont:hover {
+  width: 230px;
+}
+@media screen and (min-width: 600px) {
+  .nav__cont {
+    width: 80px; 
+    /* change 230 back to 80 *******************/
+ }
+}
+
+.nav {
+  list-style-type: none;
+  margin-bottom: 3.5rem;
+}
+
+.nav__items {
+  padding-bottom: 2.2rem;
+  font-family: var(--font-style);
+}
+.nav__items a {
+  position: relative;
+  display: block;
+  top: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  transition: var(--maintransition);
+  margin-left: 25px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: var(--mainwhite);
+  font-weight: 100;
+  font-size: 1.35em;
+  align-items: center;
+}
+.nav__items a:after {
+  content: '';
+  width: 155%;
+  height: 100%;
+  padding: 10px 0;
+  position: absolute;
+  top: -9px;
+  left: -5rem;
+  border-radius: 2px;
+  background: radial-gradient(circle at 94.02% 88.03%, #A09562, transparent 100%);
+  opacity: 0;
+  transition: var(--maintransition);
+  z-index: -10;
+}
+.nav__items:hover a:after {
+  opacity: 1;
+}
+
+.header-section .logo a {
+  color: var(--font-color);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 900;
+  padding-left: 5rem;
+  font-family: 'League Sparton';
+}
+
+.header-section hr {
+  width: 6.5rem;
+  margin-top: 8px;
+}
+
 footer {
   background: url("./images/img1.jpg") var(--primary-color);
   font-family: var(--font-style);
