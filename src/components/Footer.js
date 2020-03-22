@@ -34,20 +34,24 @@ const Footer = () => {
 					<span><i className="fa fa-clock-o"></i> &nbsp; Mon-Sat 8.00-22.00</span>
 				</div>
 				<div className="socials">
-					<a href="/"><i className="fa fa-facebook"></i></a>
-					<a href="/"><i className="fa fa-instagram"></i></a>
-					<a href="/"><i className="fa fa-twitter"></i></a>
-					<a href="/"><i className="fa fa-youtube"></i></a>
-					<a href="/"><i className="fa fa-linkedin"></i></a>
-					<a href="/"><i className="fa fa-google"></i></a>
-					<a href="/"><i className="fa fa-medium"></i></a>
+					<a href="https://www.facebook.com/mohd.raqif.5" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/mohd_codes" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+					<a href="https://twitter.com/mohdraqif1" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
+					<a href="https://github.com/mohdraqif" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
+					<a href="https://www.youtube.com/channel/UC8OaiXv5oTYm_0wJ0R7KKyg" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube"></i></a>
+					<a href="https://www.linkedin.com/in/mohd-raqif-warsi-314199182" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
+					<a href="https://medium.com/@mohdraqif1" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i></a>
 				</div>
 			</div>
 
 			<div className="footer-section contact-map">
-				<h2>Meet us <span><a href="https://www.google.com/maps/place/Baba+Sweet/@28.397374,79.410282,14z/data=!4m5!3m4!1s0x0:0x1b7218a65f0799e7!8m2!3d28.3973744!4d79.4102817?hl=en" target="blank">here . . .</a></span></h2>
 				<div className="join">
-					<h2>Join us</h2>
+					<h2>Subscribe to us for free</h2>
+					<form>      
+						<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+						<input name="email" type="text" class="feedback-input" placeholder="Email" />
+						<input type="submit" value="Subscribe"/>
+					</form>
 				</div>
 			</div>
 		</div>
