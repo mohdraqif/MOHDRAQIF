@@ -3,13 +3,16 @@ import '../App.css'
 
 const Intro = () => {
   return (
-    <div>
-      <section class="intro">  
-        <div class="content">
-          <h1>You can create full screen sections without javascript.</h1>
-        </div>
-      </section>
-    </div>
+      <div className="overlay">
+        <section className="intro"> 
+          <div className="content">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</h1>
+            <h4>Start the tour to know more</h4>
+            <a href="/" class="fancy-button bg-gradient1"><span>Get Started</span></a>
+            <a href="/" class="fancy-button bg-gradient2"><span>Live Projects</span></a>
+          </div>
+        </section>
+      </div>
   );
 }
 
