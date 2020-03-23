@@ -13,7 +13,7 @@ html {
 }
 body {
   margin: 0 0 300px;
-  padding: 25px;
+  padding-bottom: 25px;
   background: url('./images/img1.jpg');
 }
 
@@ -287,4 +287,30 @@ form {
 [type="submit"]:hover { 
   color: var(--mainwhite); 
   border: 1px solid var(--mainwhite);
+}
+
+
+section {
+  width: 100%;
+  display: table;
+  margin-top: -30px;
+  max-width: none;
+  height: 100vh;
+}
+
+.intro {
+  background: var(--secondary-color);
+  opacity: 0.85;
+  height: 120vh;
+  margin-bottom: 10rem;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 100;
+  color: var(--mainwhite);
+  font-family: var(--font-style);
+  font-size: 1.2rem;
+  text-align: center;
 }
