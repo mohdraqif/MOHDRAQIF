@@ -175,6 +175,7 @@ footer {
   height: 100px;
   margin-top: 50px;
   padding-left: 80px;
+  margin-left: 20px;
 }
 
 .footer .footer-content .about .logo a {
@@ -191,12 +192,16 @@ footer {
   width: 90px;
 }
 
+.footer .footer-content .links {
+  margin-left: 20px;
+}
+
 .footer .footer-content .links a {
   text-decoration: none;
   display: block;
   margin-right: 1px;
   margin-bottom: 10px;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: var(--font-color);
   transition: var(--maintransition);
 }
@@ -212,7 +217,7 @@ footer {
   letter-spacing: 1.5px;
   line-height: 25px;
   color: var(--font-color);
-  margin: -5px 20px 28px;
+  margin: -9px 20px 28px;
   padding: 20px;
   width: 250px;
 }
@@ -325,6 +330,10 @@ section {
   margin: 20px;
 }
 
+.intro .content h4 {
+  padding-top: 25px;
+}
+
 .content span {
   width: 145px;
 }
@@ -352,7 +361,7 @@ a:hover, a:focus, a:active {
 .fancy-button {
   display: inline-block;
   font-family: var(--font-1);
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #fff;
@@ -380,8 +389,10 @@ a:hover, a:focus, a:active {
 }
 .fancy-button span {
   display: inline-block;
+  width: 152px;
   padding: 18px 60px;
   border-radius: 50em;
+  font-size: 1.1rem;
   position: relative;
   z-index: 2;
   transform-style: preserve-3d;

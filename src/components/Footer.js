@@ -16,9 +16,9 @@ const Footer = () => {
 
 			<div className="footer-section links">
 				<h2>LINKS</h2>
-				<div>
+				<div className="foot-links">
 					<a href="http://localhost:3000/about">About Us</a>
-					<a href="http://localhost:3000/sale">Work</a>
+					<a href="http://localhost:3000/sale">Projects</a>
           <a href='/'>Contact Us</a>
 					<a href="http://localhost:3000/terms">Our Terms</a>
 					<a href="http://localhost:3000/support">Portfolio</a>
