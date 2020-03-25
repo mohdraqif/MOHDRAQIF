@@ -14,7 +14,6 @@ html {
 }
 body {
   margin: 0 0 300px;
-  padding-bottom: 25px;
   background: url('./images/img1.jpg');
 }
 
@@ -107,8 +106,8 @@ footer {
   font-family: var(--font-1);
   position: absolute;
   left: 0;
-  bottom: 0;
-  height: 430px;
+  bottom: 1;
+  height: 410px;
   text-align: center;
   width: 100%;
   overflow:hidden;
@@ -120,7 +119,6 @@ footer {
 
 .footer-content .footer-bottom {
   margin-top: 50px;
-  letter-spacing: 1px;
 }
 
 .footer .footer-bottom {
@@ -128,8 +126,9 @@ footer {
   height: 55px;
   text-align: center;
   position: relative;
-  bottom: 0px;
-  left: 0px;
+  bottom: 20px;
+  letter-spacing: 1px;
+  left: 20px;
 }
 
 .footer-bottom a {
@@ -460,7 +459,7 @@ a:hover, a:focus, a:active {
 .gallery {
   margin-left: 115px;
   width: 88%;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
   /* background: red; */
   margin-top: -19rem;
   padding-top: 6rem;
@@ -509,7 +508,7 @@ a:hover, a:focus, a:active {
   height: 100%;
   z-index: 1;
   transition: 0.4s;
-  opacity: 0.35;
+  opacity: 0.38;
 }
 
 .container .box:after {
@@ -521,7 +520,7 @@ a:hover, a:focus, a:active {
   height: 100%;
   background-color: var(--secondary-color);
   z-index: 1;
-  opacity: 0.35;
+  opacity: 0.38;
   transition: 0.4s;
 }
 
@@ -535,11 +534,11 @@ a:hover, a:focus, a:active {
   } 
 
   .container .box:hover:before {
-    background-color: var(--mainwhite);
+    background-color: var(--secondary-color);
     top: -100%;
   }
 
   .container .box:hover:after {
-    background-color: var(--mainwhite);
+    background-color: var(--secondary-color);
     bottom: -100%;
   } 
