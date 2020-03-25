@@ -458,7 +458,7 @@ a:hover, a:focus, a:active {
 }
 
 .gallery {
-  margin-left: 100px;
+  margin-left: 115px;
   width: 88%;
   margin-bottom: 10rem;
   /* background: red; */
@@ -486,7 +486,7 @@ a:hover, a:focus, a:active {
   transition: 0.5s;
   overflow: hidden;
   margin-left: 10px;
-  margin-right: .7rem; 
+  margin-right: .5rem; 
   border-radius: 15px;
 }
  
