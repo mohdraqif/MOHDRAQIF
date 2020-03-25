@@ -530,7 +530,7 @@ a:hover, a:focus, a:active {
 
   .container:hover .box:after {
     bottom: 0;
-    transition-delay: 0.2s;
+    transition-delay: 0.25s;
   } 
 
   .container .box:hover:before {
