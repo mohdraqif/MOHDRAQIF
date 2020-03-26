@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <div>
-      hello from projects
+      hello from projects page
     </div>
   );
 }

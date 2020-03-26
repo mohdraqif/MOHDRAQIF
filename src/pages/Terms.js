@@ -3,7 +3,7 @@ import React from 'react';
 const Terms = () => {
   return (
     <div>
-      hello from terms
+      hello from terms page
     </div>
   );
 }
