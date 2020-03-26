@@ -376,20 +376,15 @@ a:hover, a:focus, a:active {
   right: 30px;
   z-index: -1;
   border-radius: 30em;
-  filter: blur(15px) brightness(0.80);
+  filter: blur(11px) brightness(0.80);
   transform-style: preserve-3d;
   transition: all 0.25s ease-out;
 }
-.fancy-button i {
-  margin-top: -1px;
-  margin-right: 20px;
-  font-size: 1.265em;
-  vertical-align: middle;
-}
+
 .fancy-button span {
   display: inline-block;
   width: 152px;
-  padding: 18px 60px;
+  padding: 18px 40px;
   border-radius: 50em;
   font-size: 1.1rem;
   position: relative;
@@ -405,7 +400,7 @@ a:hover, a:focus, a:active {
 }
 .fancy-button:hover span {
   filter: brightness(1.05) contrast(1.05);
-  transform: scale(0.95);
+  transform: scale(0.92);
 }
 .fancy-button:hover:before {
   bottom: 0;
@@ -508,7 +503,7 @@ a:hover, a:focus, a:active {
   height: 100%;
   z-index: 1;
   transition: 0.3s;
-  opacity: 0.38;
+  opacity: 0.33;
 }
 
 .container .box:after {
@@ -520,7 +515,7 @@ a:hover, a:focus, a:active {
   height: 100%;
   background-color: var(--secondary-color);
   z-index: 1;
-  opacity: 0.38;
+  opacity: 0.33;
   transition: 0.3s;
 }
 
