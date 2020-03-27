@@ -9,7 +9,7 @@ const About = () => {
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="Mohd.Raqif" class="bio-image"/>
+                  <img src="https://pbs.twimg.com/profile_images/1159321045305663489/iUqCqdgj_400x400.jpg" alt="Mohd.Raqif" class="bio-image"/>
               </div>
             </div>
           </div>
