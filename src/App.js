@@ -8,6 +8,8 @@ import Portfolio from './pages/Portfolio'
 import Projects from './pages/Projects'
 import Terms from './pages/Terms'
 import Error from './pages/Error'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import {Route, Switch} from 'react-router-dom'
 
 export default class App extends Component {
@@ -24,6 +26,8 @@ export default class App extends Component {
           <Route exact path="/Terms" component={Terms}/>
           <Route component={Error}/>
         </Switch>
+        <Header/>
+        <Footer/>
       </React.Fragment>
     );
   }

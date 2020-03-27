@@ -2,7 +2,7 @@
   --font-color: #A09562;
   --primary-color: rgb(5, 5, 5);
   --secondary-color: #111213;
-  --mainwhite: #F0EEE4;
+  --mainwhite: #DBD9D0;
   --maintransition: all 0.25s ease;
   --font-1: NeueMontreal, sans-serif;
   --font-2: League Sparton;
@@ -106,7 +106,7 @@ footer {
   font-family: var(--font-1);
   position: absolute;
   left: 0;
-  bottom: 1;
+  bottom: 0;
   height: 410px;
   text-align: center;
   width: 100%;
@@ -547,7 +547,10 @@ a:hover, a:focus, a:active {
 }
 
 main {
-  padding: 4rem;
+  padding-left: 5rem;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 10rem;
   }
   main .icons {
     margin-top: 1rem; }
@@ -555,7 +558,7 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #355561;
-        transition: all 0.28s ease-out; }
+        transition: all 0.25s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -571,33 +574,59 @@ main {
 
 .about-info {
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 20px;
   grid-template-areas: 'bioimage bio bio'
  'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
 
   .about-info .bio-image {
     grid-area: bioimage;
-    margin: auto;
+    margin: 20px 100px;
     border-radius: 50%;
-    border: 5px solid #355561; }
+    border: 3px solid var(--font-color); }
     
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.3rem; }
+    font-size: 1.4rem; }
+
+  .about-info .bio p {
+    padding: 0 10px;
+  }
+
   .about-info .job-1 {
       box-shadow: 5px 13px 15px rgba(10, 9, 9, 0.815);
-      grid-area: job1; }
+      grid-area: job1;
+      color: var(--font-color); }
   .about-info .job-2 {
       box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
-      grid-area: job2; }
+      grid-area: job2;
+      color: var(--font-color); }
   .about-info .job-3 {
       box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
-    grid-area: job3; }
+      grid-area: job3;
+      color: var(--font-color); }
   .about-info .job {
-    background: #55c5bf;
-    padding: 1rem 1rem;
-    border-bottom: 5px solid #355561; }
+    background: var(--secondary-color);
+    padding: 1rem 1.5rem;
+    }
+
+  .about-info .job a {
+    color: var(--font-color);
+    padding-left: 5px;
+    transition: var(--maintransition);
+  }
+   
+  .about-info .job a:hover {
+    color: var(--mainwhite);
+  }
+
+  .about-info .job p {
+    color: var(--mainwhite);
+    padding: 20px 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-2);
+  }
 
 @media screen and (max-width: 768px) {
   main {
@@ -617,127 +646,14 @@ main {
     margin-top: 10vh; }
   }
 
-  .getus #form {
-      background: #8bd4d1
-  }
-
-  .getus {
-      background: #d0ecec;
-      width: 100%;
-      display: flex;
-  }
-
-  .login {
-      width: 80%;
-      height: 80%;
-  }
-
-  .signup {
-      width: 80%;
-      height: 80%;
-  }
-
-  .flex-container {
-      display: flex;
-      flex-flow: row wrap;
-      padding: 20px 110px;
-      margin: 50px;
-    }
-    
-    .flex-container > div {
-      background-color: #355561;
-      width: 200px;
-      height: 415px;
-      margin: 20px 20px;
-      text-align: center;
-      line-height: 75px;
-      font-size: 30px;
-      box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
-  }
-
-    .flex-container .pic {
-        background-color: white;
-        margin: 15px 15px 0;
-        height: 30vh;
-    }
-    .flex-container .pic img {
-        opacity: 1;
-      object-fit: fill;
-      width: 170px;
-      height: 237px;
-      transition: transform .2s;
-  }
-    
-    .flex-container .pic img:hover {
-      transform: scale(.91);
-    }
-
-    .flex-container .info {
-        position: relative;
-        margin:  0 15px;
-        background-color: black; 
-        color: #feffff;
-    }
-
-    .flex-container .price {
-      position: relative;
-      margin:  0 15px;
-      background-color: white;
-      transition: transform .2s;
-  }
-
-  .flex-container .price p:hover{
-      transform: scale(1.1);
-  }
-
-
   .flip-card {
-      background-color: transparent;
-      margin-left: 85px;
-      width: 300px;
-      height: 200px;
-      perspective: 600px; /* Remove this if you don't want the 3D effect */
-    }
-    
-    /* This container is needed to position the front and back side */
-    .flip-card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      transition: transform .6s;
-      transform-style: preserve-3d;
-    }
-    
-    /* Do an horizontal flip when you move the mouse over the flip box container */
-    .flip-card:hover .flip-card-inner {
-      transform: rotateY(180deg);
-    }
-    
-    /* Position the front and back side */
-    .flip-card-front, .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-    }
-    
-    /* Style the front side (fallback if image is missing) */
-    .flip-card-front {  
-      background-color: #8bd4d1;
-      width: 20vh;
-      height: 20vh;
-      border-radius: 50%;
-      color: black;
-    }
-    /* Style the back side */
-    .flip-card-back {
-      background-color: #8bd4d1;
-      width: 20vh;
-      height: 20vh;
-      border-radius: 50%;
-      color: black;
-      padding-top: 20px;
-      border: 4px solid #355561;
-      transform: rotateY(180deg);
-    }
+    margin-left: 70px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .flip-card-front {  
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+  }
