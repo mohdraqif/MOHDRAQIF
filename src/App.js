@@ -27,7 +27,7 @@ export default class App extends Component {
           <Route component={Error}/>
         </Switch>
         <Header/>
-        <Footer/>
+        {/* <Footer/> */}
       </React.Fragment>
     );
   }
