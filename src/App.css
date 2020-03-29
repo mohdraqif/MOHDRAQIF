@@ -433,12 +433,11 @@ a:hover, a:focus, a:active {
   background-color: var(--secondary-color);
   width: 350px;
   height: 60px;
-  /* margin-left: 30.5rem; */
-  margin: auto;
+  margin-left: 30.5rem;
   border-radius: 12px;
-  margin-top: -75px;
+  margin-top: -60px;
   text-align: center;
-  margin-bottom: 85px;
+  margin-bottom: 50px;
   box-shadow: 0px 10px 15px rgba(3, 3, 3, 0.808);
 }
 .banner h2 {
@@ -454,9 +453,7 @@ a:hover, a:focus, a:active {
 .gallery {
   margin-left: 115px;
   width: 88%;
-  margin-bottom: 3rem;
-  /* background: red; */
-  margin-top: -19rem;
+  margin-top: -16rem;
   padding-top: 6rem;
   display: flex;
   justify-content: center;
@@ -658,16 +655,17 @@ main {
     border-radius: 50%;
   }
   
-.section {
-  background: url('./images/img1.jpg') var(--secondary-color);
-  padding-top: 120px;
-  padding-bottom: 90px;
-  margin-top: -50px;
-}
+  .section {
+    background: url('./images/img1.jpg') var(--secondary-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: -60px;
+    margin-bottom: 4rem;
+  }
 
   .grid {
     display: grid;
-    grid-gap: 22px;
+    grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 150px;
     grid-auto-flow: row dense;
@@ -695,25 +693,14 @@ main {
     cursor: pointer;
     counter-increment: item-counter;
   }
-  .item:nth-of-type(3n) {
-    background-image: url('https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=');
-  }
-  .item:nth-of-type(4n) {
-    background-image: url('https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=');
-  }
-  .item:nth-of-type(5n) {
-    background-image: url('https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
-  }
-  .item:nth-of-type(6n) {
-    background-image: url('https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
-  }
+
   .item:after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.25;
     transition: opacity 0.25s ease-in-out;
   }
   .item:hover {
@@ -738,3 +725,21 @@ main {
    }
   }
   
+  .feedback {
+    background: url('https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 300px;
+    margin-top: -64px;
+    margin-bottom: 25.6rem;
+  }
+
+  .feedback iframe {
+    float: right;
+    margin-right: 60px;
+  }
