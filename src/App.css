@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700&display=swap');
+
 :root{
   --font-color: #A09562;
   --primary-color: rgb(5, 5, 5);
   --secondary-color: #111213;
-  --mainwhite: #DBD9D0;
+  --mainwhite: #E8E6E1;
   --maintransition: all 0.25s ease;
   --font-1: NeueMontreal, sans-serif;
   --font-2: League Sparton;
@@ -295,7 +297,7 @@ form {
 }
 
 .overlay {
-  background: url('./images/img1.jpg') center/cover ;
+  background: url('https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') center/cover ;
 }
 
 section {
@@ -307,22 +309,29 @@ section {
 }
 
 .intro {
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0.85;
-  height: 115vh;
+  opacity: 0.95;
+  height: 120vh;
   margin-bottom: 10rem;
+  padding-top: 30px;
 }
 
 .content {
   display: table-cell;
   vertical-align: middle;
   z-index: 100;
-  font-family: var(--font-2);
-  color: #DEDCD4;
+  color: var(--mainwhite);
   font-size: 1.5rem;
   text-align: center;
   padding-left: 10rem;
   padding-right: 10rem;
+}
+
+.content h1 {
+  font-family: 'Merienda', cursive;
+}
+
+.content h1 span {
+  color:var(--font-color);
 }
 
 .content a {
@@ -330,7 +339,7 @@ section {
 }
 
 .intro .content h4 {
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 .content span {
@@ -384,7 +393,7 @@ a:hover, a:focus, a:active {
 .fancy-button span {
   display: inline-block;
   width: 152px;
-  padding: 18px 40px;
+  padding: 18px 23px 18px 30px;
   border-radius: 50em;
   font-size: 1.1rem;
   position: relative;
@@ -658,7 +667,7 @@ main {
   .section {
     background: url('./images/img1.jpg') var(--secondary-color);
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
     margin-top: -60px;
     margin-bottom: 4rem;
   }
@@ -674,6 +683,7 @@ main {
   }
   .item {
     position: relative;
+    margin-top: 40px;
     width: 100%;
     height: 85%;
     display: flex;
@@ -685,7 +695,7 @@ main {
     grid-column-start: auto;
     grid-row-start: auto;
     color: #fff;
-    background: url('https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=');
+    background: url('./images/TechStore.PNG');
     background-size: cover;
     background-position: center;
     box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
@@ -693,6 +703,22 @@ main {
     cursor: pointer;
     counter-increment: item-counter;
   }
+
+  .item:nth-of-type(2n) {
+    background-image: url('./images/Beachresort.PNG');
+ }
+  .item:nth-of-type(3n) {
+    background-image: url('./images/vintage.png');
+ }
+  .item:nth-of-type(4n) {
+    background-image: url('./images/todo.png');
+ }
+  .item:nth-of-type(5n) {
+    background-image: url('./images/getlinked.png');
+ }
+  .item:nth-of-type(6n) {
+    background-image: url('./images/budgetcalculator.png');
+ }
 
   .item:after {
     content: '';
@@ -724,6 +750,11 @@ main {
       grid-row-end: span 2;
    }
   }
+
+  .grid a {
+    margin-left: 25rem;
+    margin-top: 50px;
+  }
   
   .feedback {
     background: url('https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
@@ -733,6 +764,7 @@ main {
     background-size: cover;
     height: 450px;
     width: 100%;
+    opacity: 0.95;
     padding-top: 40px;
     padding-bottom: 300px;
     margin-top: -64px;
