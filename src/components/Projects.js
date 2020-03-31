@@ -12,7 +12,6 @@ const Projects = () => {
       <div class="item item--medium" title="To-Do List"></div>
       <div class="item item--medium" title="Get Linked"></div>
       <div class="item item--medium" title="Budget Calculator"></div>
-      <a href="/" class="fancy-button bg-gradient1"><span>all projects</span></a>
     </div>
   </section>
   );
