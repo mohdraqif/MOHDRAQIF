@@ -15,7 +15,7 @@ const About = () => {
           </div>
 
         <div class="bio">
-          <p>Hi! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proide.</p>
+          <p>Hi! I'm Mohd. Raqif Warsi. Web Designs fascinates me. From scratching head amidst simple CSS rules to this far, I trained myself with creativity, persistence and of course, patience to hit the ultimate goal. Here's a hint about me.</p>
         </div>
 
         <div class="job job-1">

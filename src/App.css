@@ -37,7 +37,7 @@ body {
 }
 @media screen and (min-width: 600px) {
   .nav__cont {
-    width: 50px; 
+    width: 55px; 
  }
 }
 
@@ -203,13 +203,15 @@ footer {
   margin-right: 1px;
   margin-bottom: 10px;
   font-size: 1.15rem;
+  letter-spacing: 1px;
   color: var(--font-color);
   transition: var(--maintransition);
 }
 
 .footer .footer-content .links a:hover {
   color: var(--mainwhite);
-  margin-left: 15px;
+  transition: var(--maintransition);
+  transform: scale(1.2);
 }
 
 .footer .footer-content .contact-form .contact-box {
@@ -557,10 +559,11 @@ a:hover, a:focus, a:active {
 }
 
 main {
-  padding-left: 5rem;
   padding-top: 20px;
-  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
   margin-bottom: 10rem;
+  /* background: black; */
   }
   main .icons {
     margin-top: 1rem; }
@@ -591,7 +594,7 @@ main {
 
   .about-info .bio-image {
     grid-area: bioimage;
-    margin: 20px 100px;
+    margin: 40px 100px;
     border-radius: 50%;
     border: 3px solid var(--font-color); }
     
@@ -600,7 +603,10 @@ main {
     font-size: 1.4rem; }
 
   .about-info .bio p {
-    padding: 0 10px;
+    padding: 10px 40px;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    line-height: 32px;
   }
 
   .about-info .job-1 {
@@ -767,13 +773,13 @@ main {
     height: 450px;
     width: 100%;
     opacity: 0.95;
-    padding-top: 40px;
-    padding-bottom: 180px;
+    padding-top: 100px;
+    padding-bottom: 210px;
     margin-top: -64px;
     margin-bottom: 25.6rem;
   }
 
   .feedback iframe {
     float: right;
-    /* margin: auto; */
+    margin-right: 20px;
   }

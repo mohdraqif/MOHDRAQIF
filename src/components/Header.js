@@ -7,27 +7,27 @@ const Header = () => {
       <nav className="nav__cont">
         <ul className="nav">
           <li className="nav__items ">
-            <a href="/">About</a>
+            <a href="/about">About</a>
           </li>
           <li className="nav__items ">
-            <a href="/">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
           <li className="nav__items ">
-            <a href="/">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
           <li className="nav__items ">
-            <a href="/">Terms</a>
+            <a href="/journey">Journey</a>
+          </li>
+          <li className="nav__items ">
+            <a href="/terms">Terms</a>
           </li> 
           <li className="nav__items ">
-            <a href="/">Portfolio</a>
-          </li>
-          <li className="nav__items ">
-            <a href="/">Join</a>
+            <a href="/join">Join</a>
           </li>    
         </ul>
         <div className="header-section">
           <div className="logo">
-            <a className="navbar-brand" href="http://localhost:3000/">MR<hr/></a>
+            <a className="navbar-brand" href="/">MR<hr/></a>
           </div>
 			  </div>
       </nav>
