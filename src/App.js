@@ -26,7 +26,7 @@ export default class App extends Component {
           <Route exact path="/Terms" component={Terms}/>
           <Route component={Error}/>
         </Switch>
-        {/* <Header/> */}
+        <Header/>
         <Footer/>
       </React.Fragment>
     );
