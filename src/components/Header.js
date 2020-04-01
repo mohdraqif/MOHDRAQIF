@@ -11,24 +11,24 @@ const Header = () => {
             <Link to='/about'>About</Link>
           </li>
           <li className="nav__items ">
-            <a href="/projects">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li className="nav__items ">
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
           <li className="nav__items ">
-            <a href="/journey">Journey</a>
+            <Link to="/journey">Journey</Link>
           </li>
           <li className="nav__items ">
-            <a href="/terms">Terms</a>
+            <Link to="/terms">Terms</Link>
           </li> 
           <li className="nav__items ">
-            <a href="/join">Join</a>
+            <Link to="/join">Join</Link>
           </li>    
         </ul>
         <div className="header-section">
           <div className="logo">
-            <a className="navbar-brand" href="/">MR<hr/></a>
+            <Link className="navbar-brand" to="/">MR<hr/></Link>
           </div>
 			  </div>
       </nav>

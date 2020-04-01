@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css'
 import {FaReact} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -10,19 +11,19 @@ const Footer = () => {
 
 			<div className="footer-section about">
 				<div className="logo">
-					<a className="navbar-brand" href="/">MR<hr></hr></a>
+					<Link className="navbar-brand" to="/">MR<hr></hr></Link>
 				</div>
 			</div>
 
 			<div className="footer-section links">
 				<h2>LINKS</h2>
 				<div className="foot-links">
-					<a href="/about">About Us</a>
-					<a href="/projects">Projects</a>
-          <a href='/contact'>Contact</a>
-					<a href="/journey">Journey</a>
-					<a href="/terms">Terms</a>
-					<a href="/join">Join Us</a>
+					<Link to="/about">About Us</Link>
+					<Link to="/projects">Projects</Link>
+          <Link to='/contact'>Contact</Link>
+					<Link to="/journey">Journey</Link>
+					<Link to="/terms">Terms</Link>
+					<Link to="/join">Join Us</Link>
 				</div>
 			</div>
 
