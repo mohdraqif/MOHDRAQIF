@@ -14,16 +14,13 @@ const Header = () => {
             <Link to="/projects">Projects</Link>
           </li>
           <li className="nav__items ">
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li className="nav__items ">
             <Link to="/journey">Journey</Link>
           </li>
           <li className="nav__items ">
             <Link to="/terms">Terms</Link>
-          </li> 
+          </li>
           <li className="nav__items ">
-            <Link to="/join">Join</Link>
+            <Link to="/connect">Connect</Link>
           </li>    
         </ul>
         <div className="header-section">

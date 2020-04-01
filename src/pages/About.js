@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css'
+import {FaDev} from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -29,10 +30,25 @@ const About = () => {
         </div>
 
         <div class="job job-3">
-          <h3> <i class="fa fa-twitter fa-2x"></i><a href="https://twitter.com/mohdraqif1" target="_blank" rel="noopener noreferrer"> @mohdraqif1</a></h3>
+          <h3><i class="fa fa-twitter fa-2x"></i><a href="https://twitter.com/mohdraqif1" target="_blank" rel="noopener noreferrer"> @mohdraqif1</a></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
+
+        <div class="job job-4">
+          <h3><i class="fa fa-facebook fa-2x"></i><a href="https://www.facebook.com/mohd.raqif.5" target="_blank" rel="noopener noreferrer"> @Mohd Raqif</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
+
+        <div class="job job-5">
+          <h3><FaDev style={{fontSize: "35px"}}/><a href="https://dev.to/mohdraqif1" target="_blank" rel="noopener noreferrer"> @mohd raqif</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="job job-6">
+          <h3><i class="fa fa-medium fa-2x"></i><a href="https://medium.com/@mohdraqif1" target="_blank" rel="noopener noreferrer"> @Mohd. Raqif</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
     </main>
   </div>
   );

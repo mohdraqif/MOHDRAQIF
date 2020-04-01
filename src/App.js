@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css'
 import Home from './components/Home'
 import About from './pages/About'
-import Contact from './pages/Contact'
+import Connect from './pages/Connect'
 import Join from './pages/Join'
 import Journey from './pages/Journey'
 import Projects from './pages/Projects'
@@ -19,7 +19,7 @@ export default class App extends Component {
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About}/>
-          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/connect" component={Connect}/>
           <Route exact path="/join" component={Join}/>
           <Route exact path="/journey" component={Journey}/>
           <Route exact path="/projects" component={Projects}/>

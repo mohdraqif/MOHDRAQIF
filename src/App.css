@@ -448,7 +448,7 @@ a:hover, a:focus, a:active {
   height: 60px;
   margin: auto;
   border-radius: 12px;
-  margin-top: -60px;
+  margin-top: -20px;
   text-align: center;
   margin-bottom: 50px;
   box-shadow: 0px 10px 15px rgba(3, 3, 3, 0.808);
@@ -588,8 +588,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas: 'bioimage bio bio'
- 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 
+  'job1 job2 job3''job4 job5 job6';
   grid-template-columns: repeat(3, 1fr); }
 
   .about-info .bio-image {
@@ -621,9 +621,22 @@ main {
       box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
       grid-area: job3;
       color: var(--font-color); }
+      .about-info .job-4 {
+        box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+        grid-area: job4;
+        color: var(--font-color); }
+        .about-info .job-5 {
+          box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+          grid-area: job5;
+          color: var(--font-color); }
+          .about-info .job-6 {
+            box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+            grid-area: job6;
+            color: var(--font-color); }
   .about-info .job {
     background: var(--secondary-color);
     padding: 1rem 1.5rem;
+    margin: 0.5rem auto;
     }
 
   .about-info .job a {
@@ -676,12 +689,18 @@ main {
   
   .section {
     background: url('./images/img1.jpg') var(--secondary-color);
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 110px;
     margin-top: -60px;
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .section p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
   }
 
   .grid {
@@ -764,8 +783,8 @@ main {
    }
   }
   
-  .feedback {
-    background: url('https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  .connect {
+    background: url('https://images.pexels.com/photos/3740723/pexels-photo-3740723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -779,7 +798,45 @@ main {
     margin-bottom: 25.6rem;
   }
 
-  .feedback iframe {
-    float: right;
-    margin-right: 20px;
+  .connect iframe {
+    float: left;
+    margin-left: 100px;
   }
+
+  .feedback {
+    height: 250px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 210px;
+    margin-top: -64px;
+    margin-bottom: 25.6rem;
+  }
+
+  .terms {
+    width: 80%;
+    height: 50vh;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 150px auto;
+  }
+
+video,
+input {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+.info {
+  background-color: aqua;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
