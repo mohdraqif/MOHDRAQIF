@@ -2,8 +2,7 @@ import React from 'react';
 
 const Journey = () => {
   return (
-    <div>
-      hello from Journey page
+    <div className="journey-bg">
     </div>
   );
 }

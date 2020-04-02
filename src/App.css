@@ -792,15 +792,15 @@ main {
     height: 450px;
     width: 100%;
     opacity: 0.95;
-    padding-top: 100px;
-    padding-bottom: 210px;
+    padding-top: 120px;
+    padding-bottom: 230px;
     margin-top: -64px;
     margin-bottom: 25.6rem;
   }
 
   .connect iframe {
     float: left;
-    margin-left: 100px;
+    margin-left: 130px;
   }
 
   .feedback {
@@ -823,20 +823,16 @@ main {
     margin: 150px auto;
   }
 
-video,
-input {
-  display: block;
-}
+  .journey-bg {
+    background: url('./images/2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 210px;
+  }
 
-input {
-  width: 100%;
-}
-
-.info {
-  background-color: aqua;
-}
-
-.error {
-  background-color: red;
-  color: white;
-}
+  
