@@ -11,7 +11,7 @@ const Home = () => {
       <Intro/>
       <Slideshow/>
       <Projects/>
-      <Gallery title={['mongodb', 'express', 'react', 'node', 'netlify']}/>
+      <Gallery/>
     </div>
   );
 }
