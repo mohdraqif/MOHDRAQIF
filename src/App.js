@@ -22,7 +22,7 @@ export default class App extends Component {
           <Route exact path="/journey" component={Journey}/>
           <Route exact path="/projects" component={Projects}/>
           <Route exact path="/Terms" component={Terms}/>
-          <Route component={Error}/>
+          <Route component={Error} title="404" subtitle="page not found"/>
         </Switch>
         <Header/>
         <Footer/>
