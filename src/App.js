@@ -3,7 +3,6 @@ import './App.css'
 import Home from './components/Home'
 import About from './pages/About'
 import Connect from './pages/Connect'
-import Join from './pages/Join'
 import Journey from './pages/Journey'
 import Projects from './pages/Projects'
 import Terms from './pages/Terms'
@@ -20,7 +19,6 @@ export default class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/connect" component={Connect}/>
-          <Route exact path="/join" component={Join}/>
           <Route exact path="/journey" component={Journey}/>
           <Route exact path="/projects" component={Projects}/>
           <Route exact path="/Terms" component={Terms}/>
