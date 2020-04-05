@@ -21,7 +21,7 @@ const Footer = () => {
 			<h2>You know where we are</h2>
 			<div className="part">
 			<i class="fa fa-map-marker"></i>
-			<p><a href="https://www.google.com/maps/place/Baba+Sweet/@28.3938252,79.4069988,15.68z/data=!4m5!3m4!1s0x39a00709bb82429f:0x1b7218a65f0799e7!8m2!3d28.3973744!4d79.4102817?hl=en" target="blank">
+			<p><a href="https://www.google.com/maps/dir//Basant+Vihar+Colony,+Ram+Nagar+Colony,+Bareilly,+Uttar+Pradesh+243122/@28.3921137,79.4096257,16.22z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39a00709321a3631:0x7a9d48ee9e6156ed!2m2!1d79.4105429!2d28.3939252?hl=en" target="blank">
 				<span>21, Opp. Mini Bypass</span>Izzatnagar, Bareilly, India</a></p>
 			</div>
 			<div className="part">
@@ -30,7 +30,7 @@ const Footer = () => {
 			</div>
 			<div className="part">
 			<i class="fa fa-envelope"></i>
-			<a href="/">mohdraqif94@gmail.com</a>
+			<a href="mailto:mohdraqif94@gmail.com">mohdraqif94@gmail.com</a>
 			</div>
 		</div>
  
