@@ -664,7 +664,7 @@ main {
   }
 
   .journey-bg2 {
-    background: url('./images/pe.jpeg');
+    background: url('./images/My\ Post.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1073,3 +1073,106 @@ footer .footer-bottom {
 .footer-bottom a:hover{
   color: var(--mainwhite);
 }
+
+
+.journey-info {
+  display: grid;
+  grid-gap: 20px;
+  margin-left: 20px;
+  grid-template-areas:
+  'bio1 bio1 job1'
+  'job2 bio2 bio2'
+  'bio3 bio3 job3'
+  'job4 bio4 bio4'
+  'bio5 bio5 job5'
+  ;
+  grid-template-columns: repeat(3, 1fr); }
+    
+  .journey-info .bio1 {
+    grid-area: bio1;
+    font-size: 1.4rem;
+    background: red;
+    margin: auto; }
+    .journey-info .bio2 {
+      grid-area: bio2;
+      font-size: 1.4rem;
+      background: red;
+      margin: auto; }
+      .journey-info .bio3 {
+        grid-area: bio3;
+        font-size: 1.4rem;
+        background: red;
+        margin: auto; }
+        .journey-info .bio4 {
+          grid-area: bio4;
+          font-size: 1.4rem;
+          background: red;
+          margin: auto; }
+          .journey-info .bio5 {
+            grid-area: bio5;
+            font-size: 1.4rem;
+            background: red;
+            margin: auto; }
+  .journey-info .bio p {
+    font-size: 1.6rem;
+    border-radius: 10px;
+    line-height: 32px;
+  }
+
+  .journey-info .job-1 {
+    box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+    grid-area: job1;
+    color: var(--font-color); }
+  .journey-info .job-2 {
+    box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+    grid-area: job2;
+    color: var(--font-color); }
+    .journey-info .job-3 {
+      box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+      grid-area: job3;
+      color: var(--font-color); }
+      .journey-info .job-4 {
+        box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+        grid-area: job4;
+        color: var(--font-color); }
+        .journey-info .job-15 {
+          box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+          grid-area: job15;
+          color: var(--font-color); }   
+  .journey-info .job {
+    background: var(--secondary-color);
+    padding: 1rem 1.5rem;
+    margin: 0.5rem auto;
+    }
+
+  .journey-info .job p {
+    color: var(--mainwhite);
+    padding: 20px 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-2);
+  }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+  .journey-info {
+    grid-template-areas:
+ 'bio1'
+ 'job1' 
+ 'bio2' 
+ 'job2'
+ 'bio3'
+ 'job3'
+ 'bio4'
+ 'job4'
+ 'bio5'
+ 'job5';
+    grid-template-columns: 1fr; }
+}
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; }
+  }
