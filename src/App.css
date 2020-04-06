@@ -1203,7 +1203,8 @@ footer .footer-bottom {
  'bio5'
  'job5'
  'bio6'
- 'job6';
+ 'job6'
+ 'bio7';
     grid-template-columns: 1fr; }
 }
 
