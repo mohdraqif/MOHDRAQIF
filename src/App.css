@@ -1085,34 +1085,43 @@ footer .footer-bottom {
   'bio3 bio3 job3'
   'job4 bio4 bio4'
   'bio5 bio5 job5'
+  'job6 bio6 bio6'
+  'bio7 bio7 bio7'
   ;
   grid-template-columns: repeat(3, 1fr); }
+
+  .journey-info .job img {
+    width: 400px;
+  }
     
   .journey-info .bio1 {
     grid-area: bio1;
     font-size: 1.4rem;
-    background: red;
     margin: auto; }
     .journey-info .bio2 {
       grid-area: bio2;
       font-size: 1.4rem;
-      background: red;
       margin: auto; }
       .journey-info .bio3 {
         grid-area: bio3;
         font-size: 1.4rem;
-        background: red;
         margin: auto; }
         .journey-info .bio4 {
           grid-area: bio4;
           font-size: 1.4rem;
-          background: red;
           margin: auto; }
           .journey-info .bio5 {
             grid-area: bio5;
             font-size: 1.4rem;
-            background: red;
             margin: auto; }
+            .journey-info .bio6 {
+              grid-area: bio6;
+              font-size: 1.4rem;
+              margin: auto; }
+              .journey-info .bio7 {
+                grid-area: bio7;
+                font-size: 1.4rem;
+                margin: 50px; }
   .journey-info .bio p {
     font-size: 1.6rem;
     border-radius: 10px;
@@ -1135,10 +1144,14 @@ footer .footer-bottom {
         box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
         grid-area: job4;
         color: var(--font-color); }
-        .journey-info .job-15 {
+        .journey-info .job-5 {
           box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
-          grid-area: job15;
-          color: var(--font-color); }   
+          grid-area: job5;
+          color: var(--font-color); }  
+          .journey-info .job-6 {
+            box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+            grid-area: job6;
+            color: var(--font-color); }   
   .journey-info .job {
     background: var(--secondary-color);
     padding: 1rem 1.5rem;
@@ -1168,7 +1181,9 @@ footer .footer-bottom {
  'bio4'
  'job4'
  'bio5'
- 'job5';
+ 'job5'
+ 'bio6'
+ 'job6';
     grid-template-columns: 1fr; }
 }
 
