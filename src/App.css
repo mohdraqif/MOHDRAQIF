@@ -647,7 +647,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 500px;
     width: 100%;
     padding-bottom: 190px;
   }
@@ -1010,14 +1010,13 @@ footer{
   }
 }
 
-@media (max-width: 1136px) {
+@media (max-width: 1134px) {
   footer {
-    margin-bottom: -10px;
+    margin-bottom: -250px;
   }
 }
 
 @media (max-width: 880px) {
-
   footer {
     margin-bottom: -585px;
   }
