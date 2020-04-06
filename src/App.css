@@ -1077,7 +1077,7 @@ footer .footer-bottom {
 
 .journey-info {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 45px;
   margin-left: 20px;
   grid-template-areas:
   'bio1 bio1 job1'
@@ -1093,35 +1093,55 @@ footer .footer-bottom {
   .journey-info .job img {
     width: 400px;
   }
-    
+
+  .journey-info span {
+    color: var(--font-color);
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
   .journey-info .bio1 {
     grid-area: bio1;
     font-size: 1.4rem;
-    margin: auto; }
+    margin: auto;
+    line-height: 32px;
+    text-align: center; }
     .journey-info .bio2 {
       grid-area: bio2;
       font-size: 1.4rem;
-      margin: auto; }
+      margin: auto;
+      line-height: 32px;
+      text-align: center; }
       .journey-info .bio3 {
         grid-area: bio3;
         font-size: 1.4rem;
-        margin: auto; }
+        margin: auto;
+        line-height: 32px;
+        text-align: center; }
         .journey-info .bio4 {
           grid-area: bio4;
           font-size: 1.4rem;
-          margin: auto; }
+          margin: auto;
+          line-height: 32px;
+          text-align: center; }
           .journey-info .bio5 {
             grid-area: bio5;
             font-size: 1.4rem;
-            margin: auto; }
+            margin: auto;
+            line-height: 32px;
+            text-align: center; }
             .journey-info .bio6 {
               grid-area: bio6;
               font-size: 1.4rem;
-              margin: auto; }
+              margin: auto;
+              line-height: 32px;
+              text-align: center; }
               .journey-info .bio7 {
                 grid-area: bio7;
                 font-size: 1.4rem;
-                margin: 50px; }
+                margin: 50px;
+                line-height: 32px;
+                text-align: center; }
   .journey-info .bio p {
     font-size: 1.6rem;
     border-radius: 10px;
