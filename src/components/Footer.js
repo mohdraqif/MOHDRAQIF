@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (	
-	<footer class="footer-distributed">
-		<div class="footer-left">
+	<footer className="footer-distributed">
+		<div className="footer-left">
 			<h2>I want to see the</h2>
-			<div class="footer-links">
+			<div className="footer-links">
 					<Link to="/about">About</Link>
 					<Link to="/projects">Projects</Link>
           <Link to='/connect'>Connect</Link>
@@ -17,28 +17,28 @@ const Footer = () => {
 			</div>
 		</div>
  
-		<div class="footer-center">
+		<div className="footer-center">
 			<h2>You know where we are</h2>
 			<div className="part">
-			<i class="fa fa-map-marker"></i>
+			<i className="fa fa-map-marker"></i>
 			<p><a href="https://www.google.com/maps/dir//Basant+Vihar+Colony,+Ram+Nagar+Colony,+Bareilly,+Uttar+Pradesh+243122/@28.3921137,79.4096257,16.22z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39a00709321a3631:0x7a9d48ee9e6156ed!2m2!1d79.4105429!2d28.3939252?hl=en" target="blank">
 				<span>21, Opp. Mini Bypass</span>Izzatnagar, Bareilly, India</a></p>
 			</div>
 			<div className="part">
-			<i class="fa fa-phone"></i>
+			<i className="fa fa-phone"></i>
 			<p><span>Our Support</span>9457XX30X / 789XX781XX</p>
 			</div>
 			<div className="part">
-			<i class="fa fa-envelope"></i>
+			<i className="fa fa-envelope"></i>
 			<a href="mailto:mohdraqif94@gmail.com">mohdraqif94@gmail.com</a>
 			</div>
 		</div>
  
-		<div class="footer-right">
+		<div className="footer-right">
 			<h2>About the company</h2>
-			<p class="footer-company-about">MR is a website for web designers, web developers &amp; Blockchain Learners.<br/>
+			<p className="footer-company-about">MR is a website for web designers, web developers &amp; Blockchain Learners.<br/>
 				We strive for simple yet powerful website designs and provide better solutions and resources for free.</p>
-			<div class="footer-icons">
+			<div className="footer-icons">
 				<a href="https://www.facebook.com/mohd.raqif.5" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
 				<a href="https://www.instagram.com/mohd_codes" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
 				<a href="https://twitter.com/mohdraqif1" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
