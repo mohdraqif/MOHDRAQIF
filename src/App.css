@@ -664,7 +664,7 @@ main {
   }
 
   .journey-bg2 {
-    background: url('./images/My\ Post.png');
+    background: url('./images/pe.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1074,10 +1074,9 @@ footer .footer-bottom {
   color: var(--mainwhite);
 }
 
-
 .journey-info {
   display: grid;
-  grid-gap: 45px;
+  grid-gap: 35px;
   margin-left: 20px;
   grid-template-areas:
   'bio1 bio1 job1'
