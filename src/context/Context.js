@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
+import {data} from './data'
 
 const ProjectContext = React.createContext()
 
 class ProjectProvider extends Component {
   state={
-    'project': [
-      {id:1, 'name': 'Tech Store'},
-      {id:2, 'name': 'Vintage Tech'},
-      {id:3, 'name': 'Beach Resort'}
-    ]
+    'project': data
   }
   render() {
     return (
