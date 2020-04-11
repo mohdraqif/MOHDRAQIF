@@ -97,20 +97,6 @@ export const data = [
     sys: { id: 7 },
 
     fields: {
-      title: "Person Manager",
-       code: "https://github.com/mohdraqif/React-PersonManager",
-       demo: "/",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      image: { fields: { file: { url: "../images/citytour.png" } } },
-      class: "project8 projects--medium"
-
-    }
-  },
-  {
-    sys: { id: 8 },
-
-    fields: {
       title: "Get Linked",
       code: "https://github.com/mohdraqif/getLinked",
       demo: "https://project-getlinked.herokuapp.com/",      
@@ -121,7 +107,7 @@ export const data = [
     }
   },
   {
-    sys: { id: 9 },
+    sys: { id: 8 },
 
     fields: {
       title: "Live Chat App",
@@ -134,7 +120,7 @@ export const data = [
     }
   },
   {
-    sys: { id: 10 },
+    sys: { id: 9 },
 
     fields: {
       title: "The Book It Store",
@@ -147,12 +133,13 @@ export const data = [
     }
   },
   {
-    sys: { id: 11 },
+    sys: { id: 10 },
 
     fields: {
       title: "Weather App",
        code: "https://github.com/mohdraqif/weatherapp",
-       demo: "https://project-weatherapp.herokuapp.com/",      description:
+       demo: "https://project-weatherapp.herokuapp.com/",   
+       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       image: { fields: { file: { url: "../images/weather.png" } } },
       class: "project12 projects--medium"
@@ -160,7 +147,7 @@ export const data = [
     }
   },
   {
-    sys: { id: 12 },
+    sys: { id: 11 },
 
     fields: {
       title: "MR.Blockchain App",
