@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Terms = () => {
+const Blog = () => {
   return (
     <section className="section" style={{backgroundColor: "transparent"}}>
       <div className="banner"><h2>Terms & Conditions</h2></div>
@@ -9,4 +9,4 @@ const Terms = () => {
   );
 }
 
-export default Terms;
+export default Blog;

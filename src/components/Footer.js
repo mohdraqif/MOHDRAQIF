@@ -11,9 +11,9 @@ const Footer = () => {
 			<div className="footer-links">
 					<Link to="/about">About</Link>
 					<Link to="/projects">Projects</Link>
-          <Link to='/connect'>Connect</Link>
 					<Link to="/journey">Journey</Link>
-					<Link to="/terms">Terms</Link>
+					<Link to="/blog">Blog</Link>
+					<Link to='/connect'>Connect</Link>
 			</div>
 		</div>
  
@@ -48,7 +48,7 @@ const Footer = () => {
 			</div>
 		</div>
 		<div className="footer-bottom">
-			<p>&copy; 2020 | Made by <a href='https://github.com/mohdraqif' target='blank'>Mohd.Raqif</a> with React <FaReact/></p>
+			<p>&copy; 2020 | Made by Mohd.Raqif with React <FaReact/></p>
 		</div>
 	</footer>
   );

@@ -29,27 +29,41 @@ const Journey = () => {
         </div>
         
         <div className="bio4">
-          <p><span>N</span>etlify and Heroku. Now, how to deploy? Never worry, Heroku and Netlify are the most suitable options to deal in the deployment of your apps and websites (without a domain). Just create an account, connect to GitHub and watch your apps run live! Of course, there are plenty more of the services like Digital Ocean and all.</p>
+          <p><span>N</span>etlify and Heroku. Now, how to deploy? Never worry, Heroku and Netlify are the most suitable options to deal in the deployment of your apps and websites (without a domain). Of course, there are plenty more of the services like Digital Ocean and all.</p>
         </div>
         <div className="job job-4">
           <img src="https://fabiofranchino.com/blog/assets/posts/how-to-deploy-webapp-heroku-netlify/cover.jpg" alt=" "/>
         </div>
 
         <div className="bio5">
-          <p><span>H</span>ere comes the React. Whatever this stuff is, it's fantastic. I can't tell you enough what not I can do with React in my hand. Really. Again a library of JS powered so high that it can do almost everything. Components for frontend, Contentful for content, Strapi for backend and what else you need?</p>
+          <p><span>H</span>ere comes the React. Whatever this stuff is, it's fantastic. I can't tell you enough what not I can do with React in my hand, really. Components for frontend, Contentful for content, Strapi for backend and what else you need?</p>
         </div>
         <div className="job job-5">
           <img src="https://www.freecodecamp.org/news/content/images/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png" alt=" "/>
         </div>
-
+        
         <div className="bio6">
-          <p><span>A</span>long the journey, I met with Blockchain. A whole new concept to me. Smart contracts, ProofOfWork, Hashing, Cryptocurrency, and all the stuff of the blockchain network. Ethereum, being the central network of the blockchain was a good skill to earn. I hope to continue with my ongoing Ethereum project with all my energy.</p>
+          <p><span>B</span>logging! Indeed I like reading my mind to others. I love to spread the good energy out there. So I decided that I'll write! I'll write cause I love expressing things out of my mind. So I compose at Medium and Blogger about anything that my mind excites me.</p>
         </div>
         <div className="job job-6">
-          <img src="https://cia.news/wp-content/uploads/2019/03/La-Blockchain-Ethereum-1000x675.jpg" alt=" "/>
+          <img src="https://images.pexels.com/photos/6469/red-hands-woman-creative.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=" "/>
         </div>
 
         <div className="bio7">
+          <p><span>A</span>long the journey, I met with Blockchain. A whole new concept to me. Smart contracts, ProofOfWork, Hashing, Cryptocurrency, and all the stuff of the blockchain network. Ethereum, being the central network of the blockchain was a good skill to earn.</p>
+        </div>
+        <div className="job job-7">
+          <img src="https://cia.news/wp-content/uploads/2019/03/La-Blockchain-Ethereum-1000x675.jpg" alt=" "/>
+        </div>
+
+        <div className="bio8">
+          <p><span>D</span>ocumentation is a way to stay organized about the work we do. Wondering about what a pen and paper might do, make it a habit to jot down anything you feel. The results will be better, for sure. </p>
+        </div>
+        <div className="job job-8">
+          <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt=" "/>
+        </div>
+
+        <div className="bio9">
           <p><span>S</span>o from scratching head amidst simple CSS rules to this far, I trained myself with creativity, persistence and patience to hit the ultimate goal. Never thinking of withdrawing to this, I will continue my journey till beyond. I hope I'll learn new things from my mistakes and make new connections to other people as well during the journey. It was nice to have you here. Visit again.</p>
         </div>
       </div>

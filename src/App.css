@@ -647,9 +647,9 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     width: 100%;
-    padding-bottom: 190px;
+    padding-bottom: 110px;
   }
 
   .journey-bg2 {
@@ -666,7 +666,7 @@ main {
     
   .wrapper {
 	 position: relative;
-	 height: 130%;
+	 height: 110%;
 	 width: 100%;
    overflow: hidden;
    box-shadow: 0px 10px 15px rgba(3, 3, 3, 0.808);
@@ -1074,12 +1074,14 @@ footer .footer-bottom {
   'job4 bio4 bio4'
   'bio5 bio5 job5'
   'job6 bio6 bio6'
-  'bio7 bio7 bio7'
+  'bio7 bio7 job7'
+  'job8 bio8 bio8'
+  'bio9 bio9 bio9'
   ;
   grid-template-columns: repeat(3, 1fr); }
 
   .journey-info .job img {
-    width: 400px;
+    width: 420px;
   }
 
   .journey-info span {
@@ -1127,9 +1129,21 @@ footer .footer-bottom {
               .journey-info .bio7 {
                 grid-area: bio7;
                 font-size: 1.4rem;
-                margin: 50px;
+                margin: auto;
                 line-height: 32px;
                 text-align: center; }
+                .journey-info .bio8 {
+                  grid-area: bio8;
+                  font-size: 1.4rem;
+                  margin: auto;
+                  line-height: 32px;
+                  text-align: center; }
+                  .journey-info .bio9 {
+                    grid-area: bio9;
+                    font-size: 1.4rem;
+                    margin: 50px;
+                    line-height: 32px;
+                    text-align: center; }
   .journey-info .bio p {
     font-size: 1.6rem;
     border-radius: 10px;
@@ -1139,27 +1153,35 @@ footer .footer-bottom {
   .journey-info .job-1 {
     box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
     grid-area: job1;
-    color: var(--font-color); }
+   }
   .journey-info .job-2 {
     box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
     grid-area: job2;
-    color: var(--font-color); }
+   }
     .journey-info .job-3 {
       box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
       grid-area: job3;
-      color: var(--font-color); }
+     }
       .journey-info .job-4 {
         box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
         grid-area: job4;
-        color: var(--font-color); }
+       }
         .journey-info .job-5 {
           box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
           grid-area: job5;
-          color: var(--font-color); }  
+         }  
           .journey-info .job-6 {
             box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
             grid-area: job6;
-            color: var(--font-color); }   
+           }  
+            .journey-info .job-7 {
+              box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+              grid-area: job7;
+             }  
+             .journey-info .job-8 {
+              box-shadow: 5px 13px 15px rgba(0, 0, 0, 0.815);
+              grid-area: job8;
+             } 
   .journey-info .job {
     background: var(--secondary-color);
     padding: 1rem 1.5rem;
@@ -1192,7 +1214,11 @@ footer .footer-bottom {
  'job5'
  'bio6'
  'job6'
- 'bio7';
+ 'bio7'
+ 'job7'
+ 'bio8'
+ 'job8'
+ 'bio9';
     grid-template-columns: 1fr; }
 }
 
@@ -1257,7 +1283,6 @@ footer .footer-bottom {
   }
 
   .card {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 304px;
     margin: auto;
@@ -1265,7 +1290,7 @@ footer .footer-bottom {
     text-align: center;
     font-family: arial;
     background: var(--secondary-color);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.25s ease-in-out;
   }
 
   .card h1 {
@@ -1274,7 +1299,7 @@ footer .footer-bottom {
   }
 
   .card:hover {
-    opacity: 0.96;
+    opacity: 0.97;
   }
   
   .title {

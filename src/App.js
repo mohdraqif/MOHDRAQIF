@@ -5,7 +5,7 @@ import About from './pages/About'
 import Connect from './pages/Connect'
 import Journey from './pages/Journey'
 import ProjectsList from './pages/ProjectsList'
-import Terms from './pages/Terms'
+import Blog from './pages/Blog'
 import Error from './pages/Error'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -21,7 +21,7 @@ export default class App extends Component {
           <Route exact path="/connect" component={Connect}/>
           <Route exact path="/journey" component={Journey}/>
           <Route exact path="/projects" component={ProjectsList}/>
-          <Route exact path="/Terms" component={Terms}/>
+          <Route exact path="/blog" component={Blog}/>
           <Route component={Error} title="404" subtitle="page not found"/>
         </Switch>
         <Header/>
