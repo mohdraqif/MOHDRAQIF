@@ -12,7 +12,7 @@ const Footer = () => {
 					<Link to="/projects">Projects</Link>
 					<Link to="/blog">Blog</Link>
 					<Link to="/journey">Journey</Link>
-					<Link to='/connect'>Connect</Link>
+					<Link to='/contact'>Contact</Link>
 			</div>
 		</div>
  
@@ -25,7 +25,7 @@ const Footer = () => {
 			</div>
 			<div className="part">
 			<i className="fa fa-phone"></i>
-			<p><span>Our Support</span>9457XX30X / 789XX781XX</p>
+			<p><span>Our Support</span>9457XX30X / 789XX781X</p>
 			</div>
 			<div className="part">
 			<i className="fa fa-envelope"></i>

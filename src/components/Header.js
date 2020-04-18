@@ -20,7 +20,7 @@ const Header = () => {
             <Link to="/journey">Journey</Link>
           </li>
           <li className="nav__items ">
-            <Link to="/connect">Connect</Link>
+            <Link to="/contact">Contact</Link>
           </li>    
         </ul>
         <div className="header-section">
