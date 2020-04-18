@@ -14,10 +14,10 @@ const Header = () => {
             <Link to="/projects">Projects</Link>
           </li>
           <li className="nav__items ">
-            <Link to="/journey">Journey</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li className="nav__items ">
-            <Link to="/blog">Blog</Link>
+            <Link to="/journey">Journey</Link>
           </li>
           <li className="nav__items ">
             <Link to="/connect">Connect</Link>

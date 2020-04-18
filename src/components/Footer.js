@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css'
-import {FaReact} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -11,8 +10,8 @@ const Footer = () => {
 			<div className="footer-links">
 					<Link to="/about">About</Link>
 					<Link to="/projects">Projects</Link>
-					<Link to="/journey">Journey</Link>
 					<Link to="/blog">Blog</Link>
+					<Link to="/journey">Journey</Link>
 					<Link to='/connect'>Connect</Link>
 			</div>
 		</div>
@@ -48,7 +47,7 @@ const Footer = () => {
 			</div>
 		</div>
 		<div className="footer-bottom">
-			<p>&copy; 2020 | Made by Mohd.Raqif with React <FaReact/></p>
+			<p>&copy; 2020 | Made by Mohd.Raqif with React</p>
 		</div>
 	</footer>
   );
