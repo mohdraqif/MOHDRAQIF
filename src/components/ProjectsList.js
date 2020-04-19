@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {ProjectContext} from '../context/Context'
-import SingleProject from '../components/SingleProject'
+import SingleProject from './SingleProject'
 
 export default class ProjectList extends Component {
   static contextType = ProjectContext

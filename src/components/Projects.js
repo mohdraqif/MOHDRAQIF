@@ -1,45 +1,33 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../App.css'
+import {ProjectContext} from '../context/Context'
+import ProjectGrid from './ProjectGrid'
 
-const Projects = () => {
-  return (
-  <section className="section">
-    <div className="banner"><h2>Our Best Projects</h2></div>
-    <div className="grid">
-      <div className="item item--medium">
-        <article className="room">
-          <p className="project-name">Tech Store</p>
-        </article>
-      </div>
-      <div className="item item--medium">
-        <article className="room">
-          <p className="project-name">Beach Resort</p>
-        </article>
-      </div>
-      <div className="item item--medium">
-        <article className="room">
-          <p className="project-name">Vintage Tech.</p>
-        </article>
-      </div>
-      <div className="item item--medium">
-        <article className="room">
-          <p className="project-name">To-Do List</p>
-        </article>
-      </div>
-      <div className="item item--medium">
-        <article className="room">
-          <p className="project-name">Get Linked App</p>
-        </article>
-      </div>
-      <div className="item item--medium">
-        <article className="room">
-          <p className="project-name">Budget Calculator</p>
-        </article>
-      </div>
-
-    </div>
-  </section>
-  );
+export default class Projects extends Component {
+  static contextType = ProjectContext
+  render() {
+    const projects = this.context
+    // console.log(projects)
+    return (
+      <section className="section">
+        <div className="banner"><h2>Our Best Projects</h2></div>
+        <div className="grid">
+          {projects.map(item => {
+            if(item.fields.featured) {
+              return (
+              <ProjectGrid
+                key={item.sys.id}
+                title={item.fields.title}
+              />
+            )}
+          })}
+        </div>
+      </section>
+    );
+  }
 }
 
-export default Projects;
+
+
+
+
