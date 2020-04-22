@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SingleProject = (props) => { 
-  console.log(props.demo)
   return (
     <div className="grid">
       <div className={props.class}>
