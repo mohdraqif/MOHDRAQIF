@@ -22,6 +22,7 @@ body {
 @media screen and (min-width: 250px) and (max-width: 565px) {
   body {
     width: fit-content;
+    padding-left: 30px;
   }
   footer.footer-distributed {
     width: 36rem;
@@ -29,7 +30,17 @@ body {
   .footer-center {
     padding-left: 30px;
   }
+  nav.nav__cont {
+    height: 100%;
+  }
 }
+
+@media screen and (min-width: 10px) and (max-width: 249px) { 
+  body {
+    width: max-content;
+  }
+}
+
 
 .nav__cont {
   position: fixed;
