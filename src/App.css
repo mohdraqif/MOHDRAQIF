@@ -33,11 +33,20 @@ body {
   nav.nav__cont {
     height: 100%;
   }
+  .wrapper {
+    opacity: 0;
+  }
 }
 
-@media screen and (min-width: 10px) and (max-width: 249px) { 
+@media screen and (min-width: 59px) and (max-width: 249px) { 
   body {
-    width: max-content;
+    width: fit-content;
+  }
+  footer.footer-distributed {
+    width: 38rem;
+  }
+  .wrapper {
+    opacity: 0;
   }
 }
 
