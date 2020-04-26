@@ -19,6 +19,18 @@ body {
   background: url('./images/img1.jpg');
 }
 
+@media screen and (min-width: 250px) and (max-width: 565px) {
+  body {
+    width: fit-content;
+  }
+  footer.footer-distributed {
+    width: 36rem;
+  }
+  .footer-center {
+    padding-left: 30px;
+  }
+}
+
 .nav__cont {
   position: fixed;
   width: 30px;
