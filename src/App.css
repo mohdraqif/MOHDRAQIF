@@ -19,38 +19,6 @@ body {
   background: url('./images/img1.jpg');
 }
 
-@media screen and (min-width: 250px) and (max-width: 565px) {
-  body {
-    width: fit-content;
-    padding-left: 30px;
-  }
-  footer.footer-distributed {
-    width: 36rem;
-  }
-  .footer-center {
-    padding-left: 30px;
-  }
-  nav.nav__cont {
-    height: 100%;
-  }
-  .wrapper {
-    opacity: 0;
-  }
-}
-
-@media screen and (min-width: 59px) and (max-width: 249px) { 
-  body {
-    width: fit-content;
-  }
-  footer.footer-distributed {
-    width: 38rem;
-  }
-  .wrapper {
-    opacity: 0;
-  }
-}
-
-
 .nav__cont {
   position: fixed;
   width: 30px;
@@ -405,7 +373,7 @@ a:hover, a:focus, a:active {
   } 
 
 .first {
-  padding: 50px 15px;
+  padding: 50px 0;
 }
 
 .first p {
@@ -983,10 +951,11 @@ footer{
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
+.footer-distributed .footer-center a{
 	color:  var(--font-color);
   text-decoration: none;
   transition: var(--maintransition);
+  cursor: pointer;
 }
 
 .footer-distributed .footer-center p a:hover {
@@ -1371,3 +1340,61 @@ footer .footer-bottom {
   .card a:hover {
     color: var(--mainwhite)
   }
+
+  @media (min-width: 320px) and (max-width: 565px) {
+    .overlay, .journey-bg {
+      width: 36em;
+      padding-bottom: 120px;
+    }
+    .content {
+      padding: 30px 100px 30px;
+      width: 400px;
+    }
+    .first{
+      width: 34.3em;
+    }
+    .connect {
+      width: 165%;
+    }
+    .project-container {
+      width: 36em;
+    }
+    .card {
+      height: 500px;
+    }
+    .projects--medium {
+      grid-row-end: span 3;
+    } 
+  }
+
+  
+@media screen and (min-width: 250px) and (max-width: 565px) {
+  body {
+    width: fit-content;
+    padding-left: 30px;
+  }
+  footer.footer-distributed {
+    width: 36rem;
+  }
+  .footer-center {
+    padding-left: 30px;
+  }
+  nav.nav__cont {
+    height: 100%;
+  }
+  .wrapper {
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 59px) and (max-width: 249px) { 
+  body {
+    width: fit-content;
+  }
+  footer.footer-distributed {
+    width: 38rem;
+  }
+  .wrapper {
+    opacity: 0;
+  }
+}
