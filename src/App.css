@@ -1342,7 +1342,15 @@ footer .footer-bottom {
   }
 
   @media (min-width: 320px) and (max-width: 565px) {
-    .overlay, .journey-bg, .journey-bg2 {
+    body {
+      width: fit-content;
+      padding-left: 30px;
+    }
+    .overlay, .journey-bg2 {
+      width: 36em;
+      padding-bottom: 120px;
+    }
+    .journey-bg {
       width: 36em;
       padding-bottom: 120px;
     }
@@ -1366,41 +1374,27 @@ footer .footer-bottom {
       grid-row-end: span 3;
     } 
     nav.nav__cont {
-      width: 55px;
+      height: 100%;
+      width: 50px;
+    }
+    .nav__cont:hover {
+      width: 210px;
+    }
+    nav ul li{
+      padding: 10px 0;
+      font-size: 20px;
     }
     .about-info button {
       margin-top: 50px;
     }
+    .wrapper {
+      opacity: 0;
+    }
+    footer.footer-distributed {
+      width: 36rem;
+      font-size: 18px;
+    }
+    .footer-center {
+      padding-left: 20px;
+    }
   }
-
-  
-@media screen and (min-width: 250px) and (max-width: 565px) {
-  body {
-    width: fit-content;
-    padding-left: 30px;
-  }
-  footer.footer-distributed {
-    width: 36rem;
-  }
-  .footer-center {
-    padding-left: 30px;
-  }
-  nav.nav__cont {
-    height: 100%;
-  }
-  .wrapper {
-    opacity: 0;
-  }
-}
-
-@media screen and (min-width: 59px) and (max-width: 249px) { 
-  body {
-    width: fit-content;
-  }
-  footer.footer-distributed {
-    width: 38rem;
-  }
-  .wrapper {
-    opacity: 0;
-  }
-}
