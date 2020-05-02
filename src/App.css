@@ -656,7 +656,7 @@ main {
     background: url('./images/2.png');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     height: 750px;
     width: 100%;
@@ -668,7 +668,7 @@ main {
     background: url('./images/pe.jpeg');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     height: 550px;
     width: 100%;
@@ -1342,7 +1342,7 @@ footer .footer-bottom {
   }
 
   @media (min-width: 320px) and (max-width: 565px) {
-    .overlay, .journey-bg {
+    .overlay, .journey-bg, .journey-bg2 {
       width: 36em;
       padding-bottom: 120px;
     }
@@ -1365,6 +1365,12 @@ footer .footer-bottom {
     .projects--medium {
       grid-row-end: span 3;
     } 
+    nav.nav__cont {
+      width: 55px;
+    }
+    .about-info button {
+      margin-top: 50px;
+    }
   }
 
   
