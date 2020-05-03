@@ -485,7 +485,7 @@ main {
 
   /* bg for homepage */
   .journey-bg {
-    background: url('./images/2.png');
+    background: url('./images/2.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
@@ -497,7 +497,7 @@ main {
 
   /* bg-2 for error page */
   .journey-bg2 {
-    background: url('./images/pe.jpeg');
+    background: url('./images/pe.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
@@ -538,15 +538,15 @@ main {
 	 animation: 11s slideshow-hero-mobile -3s infinite;
 }
  .slideshow--hero .slide1 {
-	 background-image: url(./images/Beachresort.PNG);
+	 background-image: url(./images/Beachresort.jpg);
 	 animation: 20s slides-set-1 -0.1s infinite;
 }
  .slideshow--hero .slide2 {
-	 background-image: url(./images/TechStore.PNG);
+	 background-image: url(./images/TechStore.jpg);
 	 animation: 20s slides-set-2 -0.1s infinite;
 }
  .slideshow--hero .slide3 {
-	 background-image: url(./images/vintage.png);
+	 background-image: url(./images/vintage.jpg);
 	 animation: 20s slides-set-3 -0.1s infinite;
 }
  @media (min-width: 600px) {
@@ -1027,10 +1027,10 @@ footer .footer-bottom {
     opacity: 1;
   }
 
-  .project1{position:relative;width:100%;height:95%;display:flex;background:url(./images/Beachresort.PNG);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow: 0 2px 15px 0 var(--font-color)}
-  .project2{position:relative;width:100%;height:95%;display:flex;background:url(./images/TechStore.PNG);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow:0 2px 15px 0 var(--font-color)}
-  .project3{position:relative;width:100%;height:95%;display:flex;background:url(./images/vintage.png);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow:0 2px 15px 0 var(--font-color)}
-  .project7{position:relative;width:100%;height:95%;display:flex;background:url(./images/cocktails.png);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow:0 2px 15px 0 var(--font-color)}
+  .project1{position:relative;width:100%;height:95%;display:flex;background:url(./images/Beachresort.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow: 0 2px 15px 0 var(--font-color)}
+  .project2{position:relative;width:100%;height:95%;display:flex;background:url(./images/TechStore.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow:0 2px 15px 0 var(--font-color)}
+  .project3{position:relative;width:100%;height:95%;display:flex;background:url(./images/vintage.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow:0 2px 15px 0 var(--font-color)}
+  .project7{position:relative;width:100%;height:95%;display:flex;background:url(./images/cocktails.jpg);flex-direction:column;justify-content:flex-end;box-sizing:border-box;grid-column-start:auto;grid-row-start:auto;background-size:cover;background-position:center;box-shadow:0 2px 15px 0 var(--font-color)}
 
   .projects--medium {
     grid-row-end: span 2;
