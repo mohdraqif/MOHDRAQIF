@@ -11,9 +11,6 @@ const Header = () => {
             <Link to='/about'>About</Link>
           </li>
           <li className="nav__items ">
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li className="nav__items ">
             <Link to="/blog">Blog</Link>
           </li>
           <li className="nav__items ">
@@ -25,7 +22,7 @@ const Header = () => {
         </ul>
         <div className="header-section">
           <div className="logo">
-            <Link className="navbar-brand" to="/">MR<hr/></Link>
+            <Link className="navbar-brand" to="/">MR<hr/><i class="fa fa-chevron-right"></i></Link>
           </div>
 			  </div>
       </nav>

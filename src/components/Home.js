@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css'
 import Intro from './Intro'
 import Gallery from './Gallery'
-import Projects from './Projects'
+import ProjectsGrid from './ProjectsGrid'
 import Slideshow from './Slideshow'
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Intro/>
       <Slideshow/>
-      <Projects/>
+      <ProjectsGrid/>
       <Gallery/>
     </div>
   );
