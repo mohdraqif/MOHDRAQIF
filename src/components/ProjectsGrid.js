@@ -9,7 +9,7 @@ export default class Projects extends Component {
   render() {
     const projects = this.context
     return (
-      <section className="section">
+      <section className="section" id="anchor">
         <div className="banner"><h2>My Best Projects</h2></div>
         <div className="grid">
           {projects.map(item => {

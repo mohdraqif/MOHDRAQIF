@@ -3,7 +3,7 @@
 :root{
   --font-color: #A09562;
   --primary-color: rgb(5, 5, 5);
-  --secondary-color: #111213;
+  --secondary-color: #0F1011;
   --mainwhite: #E8E6E1;
   --maintransition: all 0.25s ease;
   --font-1: NeueMontreal, sans-serif;
@@ -112,7 +112,6 @@ body {
 .header-section hr {
   width: 5.5rem;
   margin-top: 8px;
-  /* margin-left: 55px; */
   color: var(--font-color);
 }
 
@@ -148,6 +147,7 @@ section {
   text-align: center;
   padding-left: 10rem;
   padding-right: 10rem;
+  background: rgba(0, 0, 0, 0.158);
 }
 
 .content h1 {
