@@ -8,10 +8,10 @@ const Footer = () => {
 		<div className="footer-left">
 			<h2>I want to see the</h2>
 			<div className="footer-links">
-					<Link smooth to="/about#about">About</Link>
-					<Link smooth to="/blog#blog">Blog</Link>
-					<Link smooth to="/journey#journey">Journey</Link>
-					<Link smooth to='/contact#contact'>Contact</Link>
+					<Link to="/about#about">About</Link>
+					<Link to="/blog#blog">Blog</Link>
+					<Link to="/journey#journey">Journey</Link>
+					<Link to='/contact#contact'>Contact</Link>
 			</div>
 		</div>
  
