@@ -724,7 +724,8 @@ footer{
 }
 
 .footer-distributed .footer-links a:hover {
-  padding-left: 15px;
+  /* padding-left: 15px; */
+  transform: scale(1.13);
 }
 
 .footer-distributed .footer-company-name{

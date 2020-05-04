@@ -4,7 +4,7 @@ import {FaDev} from 'react-icons/fa'
 
 const About = () => {
   return (
-    <div className="first">
+    <div className="first" id="about">
       <main id="about">
         <div className="about-info">
           <div className="flip-card">

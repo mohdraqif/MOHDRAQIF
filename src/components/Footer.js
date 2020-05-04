@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css'
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Footer = () => {
   return (	
@@ -8,10 +8,10 @@ const Footer = () => {
 		<div className="footer-left">
 			<h2>I want to see the</h2>
 			<div className="footer-links">
-					<Link to="/about">About</Link>
-					<Link to="/blog">Blog</Link>
-					<Link to="/journey">Journey</Link>
-					<Link to='/contact'>Contact</Link>
+					<Link smooth to="/about#about">About</Link>
+					<Link smooth to="/blog#blog">Blog</Link>
+					<Link smooth to="/journey#journey">Journey</Link>
+					<Link smooth to='/contact#contact'>Contact</Link>
 			</div>
 		</div>
  

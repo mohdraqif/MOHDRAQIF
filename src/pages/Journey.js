@@ -3,7 +3,7 @@ import '../App.css'
 
 const Journey = () => {
   return (
-    <div className="first">
+    <div className="first" id="journey">
       <div className="banner"><h2>Started from here</h2></div>
       <main id="journey">
         <div className="journey-info">
