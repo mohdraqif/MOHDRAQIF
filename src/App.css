@@ -146,7 +146,7 @@ section {
   text-align: center;
   padding-left: 10rem;
   padding-right: 10rem;
-  background: rgba(0, 0, 0, 0.158);
+  background: rgba(129, 129, 129, 0.048);
 }
 
 .content h1 {
@@ -487,7 +487,7 @@ main {
     background: url('./images/2.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
     width: 100%;
