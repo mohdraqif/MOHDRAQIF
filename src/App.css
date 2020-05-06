@@ -41,8 +41,37 @@ body {
  }
 }
 
+.nav-icon {
+  margin: 45px 7px;
+  width: 40px;
+}
+
+.nav-icon:after, 
+.nav-icon:before, 
+.nav-icon div {
+  background-color:var(--font-color);
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 3px;
+  margin: 5px 0;
+  transition: all .25s ease-in-out;
+}
+
+.nav-icon:hover:before {
+  transform: translateY(5px) rotate(135deg);
+}
+
+.nav-icon:hover:after {
+  transform: translateY(-11px) rotate(-135deg);
+}
+
+.nav-icon:hover div {
+  transform: scale(0);
+}
+
 .nav__cont ul {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .nav__cont i {

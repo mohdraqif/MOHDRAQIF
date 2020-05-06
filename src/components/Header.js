@@ -6,6 +6,9 @@ const Header = () => {
   return (
     <div>
       <nav className="nav__cont">
+        <div className="nav-icon">
+          <div></div>
+        </div>        
         <ul className="nav">
           <li className="nav__items ">
             <Link to='/about'>About</Link>
@@ -22,7 +25,7 @@ const Header = () => {
         </ul>
         <div className="header-section">
           <div className="logo">
-            <Link className="navbar-brand" to="/">MR<hr/><i class="fa fa-chevron-right"></i></Link>
+            <Link className="navbar-brand" to="/">MR<hr/></Link>
           </div>
 			  </div>
       </nav>
