@@ -2,7 +2,7 @@
 
 A Web Developer, Blockchain Lover, Learner and more ...
 
-I love to Code (with bugs😄). You're always welcome to look at what I do at my YouTube Channel: THE VSCODE GUY or https://bit.ly/30WpOCP
+I love to Code (with bugs😄). You're always welcome to look at what I do at my YouTube Channel: EXPLOI.T. or https://bit.ly/30WpOCP
 
 Here's my Gear Box:
 
