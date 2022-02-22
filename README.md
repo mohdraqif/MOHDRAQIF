@@ -30,7 +30,5 @@ Just for your curiosity:
 - 💬 Ask me about anything
 
 - 📫 How to reach me: 
-
-    Instagram: https://www.instagram.com/mohd_codes
     
     LinkedIn: https://www.linkedin.com/in/mohd-raqif-warsi-314199182/
